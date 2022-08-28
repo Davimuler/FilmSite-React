@@ -1,0 +1,21 @@
+.ContentBox{
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas:
+   "s"
+   "f";
+}
+.selectors{
+    grid-area:s;
+}
+.SelectorItem{
+    float:left;
+    margin:15px;
+}
+.SortSelectorItem{
+    float:right;
+    margin: 15px 100px 15px 15px;
+}
+.films{
+    grid-area:f;
+}

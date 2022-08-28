@@ -1,0 +1,12 @@
+.BoxArea{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.film:hover{
+    color:red;
+}
+.noResult{
+    padding-top: 50px;
+    text-align: center;
+}

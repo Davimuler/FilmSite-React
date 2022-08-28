@@ -1,0 +1,30 @@
+.FilmDescription{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+   "f"
+   "d";
+    padding:10px;
+}
+
+.img{
+    width: 180px;
+    height: 200px;
+}
+.film{
+    padding-left: 20px;
+    float: left;
+    grid-area: f;
+}
+.charact{
+    color:grey;
+    font-size: 12px;
+}
+.desc{
+   grid-area: d;
+}
+.video{
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+}

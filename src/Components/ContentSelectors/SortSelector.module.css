@@ -1,0 +1,25 @@
+.select{
+    cursor: pointer;
+
+}
+.selector{
+    background-color:white;
+    border: none;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    color:orangered;
+    font-size:16px
+}
+
+.selectorItem{
+    background-color:white;
+    border: none;
+    color:black;
+    cursor: pointer;
+}
+.selector:hover{
+    color:red;
+}

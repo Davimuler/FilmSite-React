@@ -1,0 +1,30 @@
+.Header{
+
+    padding-left: 20px;
+    background: black;
+    color:white;
+    font-family:  bold;
+
+}
+.Item{
+    padding-top: 12px;
+    padding-right:10PX;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+}
+.SiteName{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right:40PX;
+    font-size: 24px;
+    float: left;
+}
+.Search{
+    padding-top: 8px;
+    padding-right:40PX;
+    font-size: 24px;
+    float: right;
+}
